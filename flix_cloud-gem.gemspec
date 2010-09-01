@@ -59,15 +59,15 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<builder>, [">= 2.1.2"])
       s.add_runtime_dependency(%q<crack>, [">= 0.1.1"])
-      s.add_runtime_dependency(%q<sevenwire-http_client>, [">= 0.1.0"])
+      s.add_runtime_dependency(%q<http_client>, [">= 0.1.0"])
     else
       s.add_dependency(%q<builder>, [">= 2.1.2"])
       s.add_dependency(%q<crack>, [">= 0.1.1"])
-      s.add_dependency(%q<sevenwire-http_client>, [">= 0.1.0"])
+      s.add_dependency(%q<http_client>, [">= 0.1.0"])
     end
   else
     s.add_dependency(%q<builder>, [">= 2.1.2"])
     s.add_dependency(%q<crack>, [">= 0.1.1"])
-    s.add_dependency(%q<sevenwire-http_client>, [">= 0.1.0"])
+    s.add_dependency(%q<http_client>, [">= 0.1.0"])
   end
 end
